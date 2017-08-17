@@ -10,4 +10,11 @@ $border:solid 1px orange;
     background: $color;
 }
 
+.buut {
+    width: demo(300px);
+    border: $border;
+    $color: hsl(120deg, 100%, 50%);
+    background: $color;
+}
+
 @import "1.css";
