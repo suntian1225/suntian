@@ -1,0 +1,15 @@
+%hh {
+    width: 100px;
+    height: 100px;
+}
+
+.one {
+    @extend %hh;
+    font-size: 32px;
+    background: green;
+}
+
+.two {
+    @extend %hh;
+    background: orange;
+}
